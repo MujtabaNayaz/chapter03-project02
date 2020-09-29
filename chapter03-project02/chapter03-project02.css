@@ -1,0 +1,55 @@
+html,body,header,footer,section,figure,figcaption,h1,h2,h3,ul,li,body,div,p,img
+{
+    margin:0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border:0;
+}
+header,footer{
+    color: white;
+    background-image: url('bcg.png');
+    background-color: #3D6271;
+    margin: 0em 4em 0.5emm 4em;
+    padding-bottom: 1.5%;
+}
+h1{
+    font-size: 200%;
+}
+.desc{
+    border: 2px solid black;
+    background-image: url('bcgr.jpg');
+}
+.desc h1{
+    background-color: gray;
+}
+.rel{
+    border: 2px solid black;
+    background-image: url('bcgr.jpg');
+}
+.rel h3{
+    background-color: gray;
+}
+.rev{
+    border: 2px solid black;
+    background-image: url('bcgr.jpg');
+}
+.rev h2{
+    background-color: gray;
+}
+.con{
+    border: 2px solid black;
+    background-image: url('bcgr.jpg');
+}
+.con h3{
+    background-color: gray;
+}
+a[href^="mailto"] {
+    background-image: url(C:\Users\Mujthaba\Desktop\chapter03-project02\email.jpg); no-repeat 0 3px;
+    padding-left: 1em;
+}
+a[href^="tel"]
+{
+    background-image: url(images/call.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
